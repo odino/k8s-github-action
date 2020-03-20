@@ -19,3 +19,4 @@ jobs:
         kubectl cluster-info
         kubectl create deployment --image nginx my-nginx
         kubectl get po
+        kubectl get deployment
