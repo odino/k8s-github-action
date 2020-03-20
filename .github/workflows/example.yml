@@ -18,4 +18,4 @@ jobs:
       run: |
         kubectl cluster-info
         kubectl create deployment --image nginx my-nginx
-        kubectl -n get po
+        kubectl get po
